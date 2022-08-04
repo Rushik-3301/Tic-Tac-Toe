@@ -9,10 +9,15 @@
 # How to Play Tic Tac Toe?
 * Almost anyone can play Tic Tac Toe as it is a pretty easy game.It is a two-player game.Usually, the player that gets to play ‘X’ as their alphabet starts the game with their turn being the first. Whereas the player that gets to play ‘O’ plays the second turn.It doesn’t matter whether you play first or second.In another ways – “ Two expert players will always draw.Tic Tac Toe is not a game of chance. It is a skill-based game...
 
+
 # Follow these 3 steps to learn how to play Tic Tac Toe:
 
-* Step 1 – Decide who goes first
-* Step 2 – Start the game
-* Step 3 – Win the game
+* step  1 - This is very easy python code & easy to play.
+* Step  2 – Decide who goes first..
+* Step  3 – Start the game..
+* Step  4 – Win the game...
 
 ![th](https://user-images.githubusercontent.com/98481882/182332842-498e4692-fd51-41ce-9cb9-e608a857ae51.jpg)
+
+# TEAM MEMBERS
+* RUSHIK
