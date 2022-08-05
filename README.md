@@ -15,7 +15,8 @@
 * step  1 - This is very easy python code & easy to play.
 * Step  2 – Decide who goes first..
 * Step  3 – Start the game..
-* Step  4 – Win the game...
+* Step  4 – Win the game... 
+* step  5 - download the above python code & enjoy pandagow
 
 ![th](https://user-images.githubusercontent.com/98481882/182332842-498e4692-fd51-41ce-9cb9-e608a857ae51.jpg)
 
