@@ -1,1 +1,63 @@
+def print_tic_tac_toe(value):
+    print("\n")
+    print("\t      |    |")
+    print("\t   {}  |   {}   |   {}".format(value[0], value[1], value[2]))
+    print("\t-----|-----|-----")
+    
+    print("\t     |     |")
+    print("\t  {}  |  {}  |  {}".format(values[3], values[4], values[5]))
+    print('\t_____|_____|_____')
+ 
+    print("\t     |     |")
+ 
+    print("\t  {}  |  {}  |  {}".format(values[6], values[7], values[8]))
+    print("\t     |     |")
+    print("\n")
+    
+def print_scoreboard(score_board):
+    print("\t-----------------------------------")
+    print("\t                scoreboard        ")
+    print("\t-----------------------------------")
+    
+    players =list(score_board.key())
+    print("\t  ",players[0], "\t   ", score_board[players[0]])
+    print("\t   ", players[1], "\t    ", score_board[players[1]])
+ 
+    print("\t--------------------------------\n")
+    
+    
+def check_win(player_pos,  cur_player):
 
+
+   soln = [[1, 2, 3], [4, 5, 6], [7, 8, 9], [1, 4, 7], [2, 5, 8], [3, 6, 9], [1, 5, 9], [3, 5, 7]
+ 
+ 
+   for x in soln:
+       if all(y in player_pos[cur_player] for y in x):
+       
+           return True
+           
+       return False
+       
+       
+def check_draw(player_pos):
+   if len(player_pos["x"]) + len(player_pos["o"]) ==9:
+       return True
+     return False
+     
+def single_game(cur_player):
+
+
+    value=[" " for x in range(9)]
+    
+    
+    player_pos = {'x':[],  'o':[]}
+    
+    
+    while True:
+         print_tic_tac_toe(values)
+         
+         
+         try:
+             print("player ", cur_player, "turm. while box? : ",end="")
+    
